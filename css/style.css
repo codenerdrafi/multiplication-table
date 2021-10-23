@@ -1,0 +1,32 @@
+.inp-1{
+    /* border-radius: 15px;
+    color: #333;
+    padding: 20px 40px;
+    font-size: 35px; */
+    text-align: center;
+    /* border: 1px solid rgb(3, 35, 54); */
+}
+.btn-success{
+    padding: 8px 30px !important;
+    font-size: 25px !important;
+}
+.btn-info{
+    padding: 8px 30px !important;
+    font-size: 25px !important;
+    color: #fff !important;
+}
+#output{
+    background-color: #fff;
+    color: #333;
+    font-weight: bolder;
+    width: 90%;
+    font-size: 22px;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 0 auto;
+    display: none;
+}
+#clear{
+    display: none;
+    margin: 0 auto;
+}

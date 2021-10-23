@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Multiplication Table</title>
+</head>
+<body class="bg-dark" >
+    <div class="container">
+            <div class="heading text-center">
+                <h1 class="text-white my-3">Multiplication Table</h1>
+            </div>
+            <!-- inputs -->
+            <div class="text-center py-5">
+                <div class="col-md-8 m-auto">
+                    <input type="text" name="" id="input" onkeypress="isInputNumber(event)" class="my-3 inp-1 form-control" placeholder="Enter a number">
+                    <br>
+                    <input type="button" class="btn btn-success" value="Enter" onclick="getResult()">
+                </div> 
+            </div>
+            <!-- inputs -->
+        
+        
+            <!-- output -->
+            <div id="output" class="text-center"></div>
+            
+            <!-- output -->
+            
+            <!-- clear button -->
+            <div class="text-center">
+                <hr class="bg-white">
+                <input type="button" value="clear" onclick="clearTable()" id="clear" class="text-center btn btn-info">
+            </div>
+            
+            <!-- clear button -->
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
